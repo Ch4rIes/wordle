@@ -19,7 +19,6 @@ public class Main {
         words = new ArrayList<>();
         readWords();
         String word = words.get((int)(Math.random() * words.size()));
-        System.out.println(word);
         // please set your word that you want to guess here
         System.out.println(ANSI_GREEN + "GREEN = RIGHT LETTER + RIGHT PLACE");
         System.out.println(ANSI_PURPLE + "PURPLE = RIGHT LETTER + WRONG PLACE");

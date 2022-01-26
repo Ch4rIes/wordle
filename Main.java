@@ -52,7 +52,7 @@ public class Main {
                 return;
             }
         }
-        System.out.println("You have run out of chances");
+        System.out.println("You have run out of chances" + "\n" + word);
     }
     public static void readWords(){
         try {
